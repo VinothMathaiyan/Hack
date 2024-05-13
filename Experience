@@ -1,0 +1,51 @@
+HR Experience Survey Sampling with GenAI
+
+1. Introduction:
+
+HR Experience are a cornerstone of understanding colleague experience by listening to their Journeys and driving positive change within an organization.  However, the current process for creating sample files for surveys can be further optimized to enhance its efficiency and effectiveness.
+
+This project aims to leverage Generative AI (GenAI) to create a more dynamic and user-friendly sampling experience, ensuring employees receive surveys relevant to their specific journeys, ultimately leading to faster data collection and deeper insights.
+
+2. Problem Statement:
+
+Employee surveys are crucial for gathering feedback on various aspects of the colleague experience, often encompassing a wide range of journeys (e.g., onboarding, training, performance management).
+
+However, the current process for generating survey samples faces several challenges:
+
+Limited Relevance: Out of X total journeys, only a randomly selected Y journeys are shown to each colleague through our survey tool. This can lead to a significant portion (a%) of employees receiving a "Not Applicable" (NA) option for many questions, as they haven't actually experienced the relevant journeys.
+Manual and Time-Consuming: The current process of creating sample files and filtering data based on journey interaction is highly manual and time-consuming, hindering survey deployment and data analysis.
+
+
+3. Proposed Solution:
+
+We propose a GenAI-powered solution that automates and streamlines colleague survey sampling, improving efficiency and data quality. This solution will:
+
+- Automate Data Integration: Seamlessly connect to various data sources (population file, headcount data, journey data) and combine them for analysis.
+- Dynamic Qualification Criteria: Develop an algorithm using GenAI that considers various data points (demographics, journey interactions, leave details) to identify "qualified colleagues" for each survey, ensuring they have actually experienced the journey being evaluated.
+- Natural Language Sampling: Implement NLP to understand user queries for sample size and selection criteria (e.g., "Select 100 colleagues who recently completed the onboarding journey").
+- Intelligent Sampling: Based on user queries, qualification criteria, and statistical considerations, GenAI will generate a targeted sample of employees.
+- Enhanced Output: Generate the final participant file in the desired format, including additional columns like "Journey Name" and "Qualification Reason".
+
+4. Benefits:
+
+- Reduced Manual Effort: Frees up time to focus on analysis and strategic initiatives.
+- Improved Data Quality: More targeted samples lead to better survey responses and more actionable insights.
+- Increased Efficiency: Faster turnaround time for sample creation, accelerating survey deployment.
+- Simplified User Experience: User-friendly interface and natural language queries make the process accessible to non-technical users.
+
+5. Technical Approach:
+
+- Utilize GenAI for data integration, NLP for natural language query processing, and machine learning algorithms for dynamic qualification and intelligent sampling.
+- Develop a user interface for specifying survey details, qualification criteria, and desired sample size using natural language.
+
+6.  Hackathon Deliverables:
+
+- Prototype: Develop a basic prototype showcasing the functionality of user interaction, data manipulation, and sample generation.
+- Technical Documentation: Outline the system architecture, data flow, and core algorithms used.
+Presentation: Present the problem, solution, and potential impact of the project to the hackathon audience.
+
+7. Conclusion:
+
+This GenAI-powered solution for HR Experience survey sampling has the potential to simplify how HR teams gather data and gain valuable insights into colleague experience. By automating manual tasks, targeting the right colleagues, and simplifying the process, this project will empower HR to make data-driven decisions and enhance colleague engagement.
+
+
